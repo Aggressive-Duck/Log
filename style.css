@@ -12,6 +12,11 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: auto;
+}
+
+.list {
+    align-self: flex-start;
 }
 
 .margmid {
@@ -46,4 +51,5 @@ h2, p {
 
 img {
     width: 60%;
+    height: auto;
 }
