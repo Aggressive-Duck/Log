@@ -2,10 +2,13 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-main {
-    width: 80%;
-    margin: auto;
-}
+@media screen and (max-width: 800px) {
+    div {
+        margin: 0 2% 0 2%;
+    }
+  }
+
+
 
 div {
     display: flex;
@@ -16,8 +19,14 @@ div {
 }
 
 .p2 {
-    width: 650px;
+    width: 45%;
 }
+
+@media screen and (max-width: 800px) {
+    .p2 {
+        width: 100%;
+    }
+  }
 
 .list {
     align-self: flex-start;
