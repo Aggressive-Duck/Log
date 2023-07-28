@@ -1,6 +1,7 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    background-color: #F6F4EB;
+    background-color: white;
+    /*background-color: #A1CCD1;*/
 }
 
 @media screen and (max-width: 800px) {
